@@ -1,4 +1,4 @@
-FROM btpanel/baota:lnmp
+FROM btpanel/baota:latest
 ARG PORT
 ENV ROCKET_PORT ${PORT}
 
